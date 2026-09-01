@@ -121,10 +121,13 @@
       <div class="contact-intro">
         <p class="kicker">Contatti</p>
         <h2>Vuoi sapere<br>se è disponibile?</h2>
-        <p>Invia una richiesta senza impegno. La mail verrà preparata automaticamente con il vino selezionato.</p>
+        <p>Invia una richiesta senza impegno. Il messaggio verrà inviato direttamente dal sito.</p>
       </div>
 
-      <form id="leadForm" class="contact-form">
+      <form id="leadForm" class="contact-form" action="https://formsubmit.co/pigafettawine@gmail.com" method="POST">
+        <input type="hidden" name="_subject" id="formSubject" value="Nuova richiesta dal sito Pigafetta Vini">
+        <input type="hidden" name="codice_richiesta" id="leadCode" value="">
+        <input type="hidden" name="_template" value="table">
         <label>Nome
           <input id="name" name="nome" type="text" autocomplete="name" required placeholder="Il tuo nome">
         </label>
@@ -140,7 +143,7 @@
         <label>Messaggio
           <textarea id="message" name="messaggio" rows="3" placeholder="Quantità o altre informazioni"></textarea>
         </label>
-        <label class="privacy"><input id="privacy" type="checkbox" required> <span>Acconsento all'utilizzo dei dati per rispondere alla richiesta.</span></label>
+        <label class="privacy"><input id="privacy" name="privacy_accettata" value="Sì" type="checkbox" required> <span>Acconsento all'utilizzo dei dati per rispondere alla richiesta.</span></label>
         <button class="submit-btn" type="submit">Invia richiesta <span>↗</span></button>
         <p class="form-note">Contatto mail: <a href="mailto:pigafettawine@gmail.com">pigafettawine@gmail.com</a></p>
       </form>
