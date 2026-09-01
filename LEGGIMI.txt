@@ -1,0 +1,13 @@
+PIGAFETTA VINI — VERSIONE MINIMAL
+
+Apri index.html con Chrome o Edge per vedere il sito in locale.
+
+File principali:
+- index.html = contenuti e struttura
+- style.css = grafica
+- script.js = menu, selezione vino e richiesta email
+
+La mail di contatto provvisoria è pigafettawine@gmail.com.
+Il modulo usa mailto: apre il programma di posta dell'utente con il messaggio già compilato.
+
+Versione demo: schede tecniche, prezzi, annate, immagini reali e testi definitivi vanno confermati con la cantina prima della pubblicazione ufficiale.
