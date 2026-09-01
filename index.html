@@ -16,8 +16,10 @@
       <span class="logo-p">P</span>
       <span>PIGAFETTA <small>VINI</small></span>
     </a>
-    <button class="menu-btn" type="button" aria-expanded="false" aria-label="Apri menu">Menu</button>
-    <nav class="menu" aria-label="Navigazione principale">
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-menu" aria-label="Apri menu">
+      <span class="hamburger" aria-hidden="true"><span></span><span></span><span></span></span>
+    </button>
+    <nav id="site-menu" class="menu" aria-label="Navigazione principale">
       <a href="#vini">Vini</a>
       <a href="#storia">Storia</a>
       <a href="#territorio">Territorio</a>
@@ -54,32 +56,26 @@
         <article class="wine-row" data-wine="Cabernet">
           <span class="wine-index">01</span>
           <div><p>Rosso</p><h3>Cabernet</h3></div>
-          <button class="wine-action" type="button">Richiedi <span>↗</span></button>
         </article>
         <article class="wine-row" data-wine="Merlot">
           <span class="wine-index">02</span>
           <div><p>Rosso</p><h3>Merlot</h3></div>
-          <button class="wine-action" type="button">Richiedi <span>↗</span></button>
         </article>
         <article class="wine-row" data-wine="Sauvignon">
           <span class="wine-index">03</span>
           <div><p>Bianco</p><h3>Sauvignon</h3></div>
-          <button class="wine-action" type="button">Richiedi <span>↗</span></button>
         </article>
         <article class="wine-row" data-wine="Serprino">
           <span class="wine-index">04</span>
           <div><p>Bianco · Colli Euganei</p><h3>Serprino</h3></div>
-          <button class="wine-action" type="button">Richiedi <span>↗</span></button>
         </article>
         <article class="wine-row" data-wine="Rosé">
           <span class="wine-index">05</span>
           <div><p>Rosato</p><h3>Rosé</h3></div>
-          <button class="wine-action" type="button">Richiedi <span>↗</span></button>
         </article>
         <article class="wine-row special" data-wine="Il vino del navigatore">
           <span class="wine-index">06</span>
           <div><p>Etichetta simbolo</p><h3>Il vino del navigatore</h3></div>
-          <button class="wine-action" type="button">Richiedi <span>↗</span></button>
         </article>
       </div>
           </section>
